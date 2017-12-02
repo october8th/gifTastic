@@ -1,0 +1,48 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gifTastic!</title>
+	<!-- reset CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+     <!-- Font Awesome -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class = "row">
+			<div class="col-12 bg-light">
+	    		<h1>Everyone knows cat gifs are hilarious, <br>but have you tried them with...</h1>
+	    	</div>
+	    </div>
+	     <!-- Rendered Buttons will get Dumped Here  -->
+	    <div class ="row">
+	    	<div id="buttons-view" class="col-12 bg-secondary"></div>
+		</div>
+		<div class ="row">
+			<div id="content-area" class="col-8 bg-dark"></div>
+			<form id="cats-form" class="col-4 bg-light">
+				<h4>Add a category and click submit!</h4>
+				<label for="cats-input">Search for cats and...</label>
+			    <input type="text" id="cats-input">!<br>
+			    <!-- Button triggers new movie to be added -->
+			    <input id="add-cats" type="submit">
+				<br>
+				<br>
+			    <h5>Click a gif to start or stop the animation.</h5>
+			</form>
+		</div>
+	</div>	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- My script -->
+	<script type="text/javascript" src="./assets/javascript/javascript.js"></script>
+</body>
+</html>
